@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/           <-- Python虚拟环境
+env/
+
+# Node / Vue
+node_modules/   <-- 前端小文件，不传
+dist/
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Database
+*.db
