@@ -22,7 +22,7 @@ cd backend
 python -m venv venv
 source venv/bin/activate # Windows: venv\Scripts\activate
 pip install fastapi uvicorn sqlmodel
-uvicorn main:app --reload
+uvicorn backend.main:app --reload
 ```
 ### 前端启动
 ```bash
