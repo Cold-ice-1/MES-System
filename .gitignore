@@ -2,17 +2,29 @@
 __pycache__/
 *.py[cod]
 *$py.class
-venv/           <-- Python虚拟环境
-env/
+backend/venv/
+backend/env/
+.venv/
 
 # Node / Vue
-node_modules/   <-- 前端小文件，不传
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+node_modules/
 dist/
-.DS_Store
 
-# IDE
+# Local databases and runtime files
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE / OS
 .vscode/
 .idea/
-
-# Database
-*.db
+.DS_Store
+Thumbs.db
